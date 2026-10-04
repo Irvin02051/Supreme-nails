@@ -1,0 +1,27 @@
+# Dependencies and generated output
+node_modules/
+dist/
+dist-ssr/
+*.tsbuildinfo
+
+# Environment and local secrets
+.env
+.env.*
+*.local
+.aws/
+.ssh/
+credentials
+credentials.*
+*credentials*.json
+*service-account*.json
+*service_account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+.npmrc
+
+# Local tooling and OS files
+.codex/
+.DS_Store
+*.log
