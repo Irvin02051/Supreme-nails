@@ -2,6 +2,20 @@
 
 Responsive website for a local nail salon, built with React, TypeScript, and Vite. Features service pricing, phone booking, business hours, and Google Maps directions.
 
+**Live website:** https://supreme-nails-4bm.pages.dev/
+
+## Features
+
+- Responsive nail and waxing service menus with pricing.
+- Click-to-call links for phone booking.
+- Business hours, location information, and Google Maps directions.
+- Mobile call bar for convenient access.
+- Keyboard navigation support, visible focus indicators, and reduced-motion support.
+
+## Tech Stack
+
+React, TypeScript, Vite, CSS, and Cloudflare Pages.
+
 ## Development
 
 From `frontend/`:
@@ -21,7 +35,7 @@ From `frontend/`:
 - `frontend/src/index.css` and `frontend/src/App.css`: theme and responsive layout.
 - `frontend/index.html`: page title and meta description.
 
-**Before launch:** The service prices are draft transcriptions from photos and require owner confirmation. Confirm all service names and prices, especially ranges and starting prices. No additional prices have been inferred. Supply approved salon photos if photography is desired; the current artwork is decorative CSS and does not depict the salon.
+**Content verification:** The service prices are draft transcriptions from photos and require owner confirmation. Confirm all service names and prices, especially ranges and starting prices. No additional prices have been inferred. Supply approved salon photos if photography is desired; the current artwork is decorative CSS and does not depict the salon.
 
 ## Booking and location
 
@@ -44,4 +58,4 @@ The placement is stored in `data-track-placement`. Future integration can use th
 
 The page includes semantic navigation and headings, a skip link, visible keyboard focus, readable price lists, reduced-motion support, and a mobile call bar with reserved bottom space and safe-area padding. All service prices remain visible without opening tabs or accordions. Fonts are local system fonts; no external font requests are required.
 
-Before publishing, review the site in target browsers at phone, tablet, and desktop sizes, confirm prices with the owner, and test phone and Google Maps handoff on a real device. Deployment is not configured or performed as part of this version.
+The website is deployed on Cloudflare Pages. When updating the site, review phone, tablet, and desktop layouts; confirm service information with the owner; and test phone links and Google Maps directions on a real device.
