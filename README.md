@@ -1,6 +1,6 @@
 # Supreme Nails
 
-First version of the Supreme Nails website, built in `frontend/` with Vite, React, and TypeScript. Includes responsive nail and waxing menus, phone-only booking, business hours, and Google Maps directions. No booking form, login, fabricated reviews, statistics, or salon photography.
+Responsive website for a local nail salon, built with React, TypeScript, and Vite. Features service pricing, phone booking, business hours, and Google Maps directions.
 
 ## Development
 
